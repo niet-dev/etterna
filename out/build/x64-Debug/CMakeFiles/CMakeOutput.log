@@ -1,0 +1,1362 @@
+The system is: Windows - 10.0.19045 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/cl.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30154 for x64
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+CMakeCCompilerId.c
+Microsoft (R) Incremental Linker Version 14.29.30154.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCCompilerId.exe 
+CMakeCCompilerId.obj 
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
+
+The C compiler identification is MSVC, found in "C:/Users/Matt/Code/etterna/out/build/x64-Debug/CMakeFiles/3.20.21032501-MSVC_2/CompilerIdC/CMakeCCompilerId.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/cl.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30154 for x64
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+CMakeCXXCompilerId.cpp
+Microsoft (R) Incremental Linker Version 14.29.30154.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCXXCompilerId.exe 
+CMakeCXXCompilerId.obj 
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
+
+The CXX compiler identification is MSVC, found in "C:/Users/Matt/Code/etterna/out/build/x64-Debug/CMakeFiles/3.20.21032501-MSVC_2/CompilerIdCXX/CMakeCXXCompilerId.exe"
+
+Checking whether the ASM compiler is MSVC using "-?" matched "Microsoft":
+Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30154 for x64
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+                         C/C++ COMPILER OPTIONS
+
+
+                              -OPTIMIZATION-
+
+/O1 maximum optimizations (favor space) /O2 maximum optimizations (favor speed)
+/Ob<n> inline expansion (default n=0)   /Od disable optimizations (default)
+/Og enable global optimization          /Oi[-] enable intrinsic functions
+/Os favor code space                    /Ot favor code speed
+/Ox optimizations (favor speed)         
+/favor:<blend|AMD64|INTEL64|ATOM> select processor to optimize for, one of:
+    blend - a combination of optimizations for several different x64 processors
+    AMD64 - 64-bit AMD processors                                 
+    INTEL64 - Intel(R)64 architecture processors                  
+    ATOM - Intel(R) Atom(TM) processors                           
+
+                             -CODE GENERATION-
+
+/Gu[-] ensure distinct functions have distinct addresses
+/Gw[-] separate global variables for linker
+/GF enable read-only string pooling     /Gm[-] enable minimal rebuild
+/Gy[-] separate functions for linker    /GS[-] enable security checks
+/GR[-] enable C++ RTTI                  /GX[-] enable C++ EH (same as /EHsc)
+/guard:cf[-] enable CFG (control flow guard)
+/guard:ehcont[-] enable EH continuation metadata (CET)
+/EHs enable C++ EH (no SEH exceptions)  /EHa enable C++ EH (w/ SEH exceptions)
+/EHc extern "C" defaults to nothrow     
+/EHr always generate noexcept runtime termination checks
+/fp:<except[-]|fast|precise|strict> choose floating-point model:
+    except[-] - consider floating-point exceptions when generating code
+    fast - "fast" floating-point model; results are less predictable
+    precise - "precise" floating-point model; results are predictable
+    strict - "strict" floating-point model (implies /fp:except)
+/Qfast_transcendentals generate inline FP intrinsics even with /fp:except
+/Qspectre[-] enable mitigations for CVE 2017-5753
+/Qpar[-] enable parallel code generation
+/Qpar-report:1 auto-parallelizer diagnostic; indicate parallelized loops
+/Qpar-report:2 auto-parallelizer diagnostic; indicate loops not parallelized
+/Qvec-report:1 auto-vectorizer diagnostic; indicate vectorized loops
+/Qvec-report:2 auto-vectorizer diagnostic; indicate loops not vectorized
+/GL[-] enable link-time code generation 
+/volatile:<iso|ms> choose volatile model:
+    iso - Acquire/release semantics not guaranteed on volatile accesses
+    ms  - Acquire/release semantics guaranteed on volatile accesses
+/GA optimize for Windows Application    /Ge force stack checking for all funcs
+/Gs[num] control stack checking calls   /Gh enable _penter function call
+/GH enable _pexit function call         /GT generate fiber-safe TLS accesses
+/RTC1 Enable fast checks (/RTCsu)       /RTCc Convert to smaller type checks
+/RTCs Stack Frame runtime checking      /RTCu Uninitialized local usage checks
+/clr[:option] compile for common language runtime, where option is:
+    pure : produce IL-only output file (no native executable code)
+    safe : produce IL-only verifiable output file
+    netcore : produce assemblies targeting .NET Core runtime
+    noAssembly : do not produce an assembly
+    nostdlib : ignore the system .NET framework directory when searching for assemblies
+    nostdimport : do not import any required assemblies implicitly
+    initialAppDomain : enable initial AppDomain behavior of Visual C++ 2002
+    implicitKeepAlive- : turn off implicit emission of System::GC::KeepAlive(this)
+/fsanitize=address Enable address sanitizer codegen
+/homeparams Force parameters passed in registers to be written to the stack
+/GZ Enable stack checks (/RTCs)         /Gv __vectorcall calling convention
+/arch:<AVX|AVX2|AVX512> minimum CPU architecture requirements, one of:
+   AVX - enable use of instructions available with AVX-enabled CPUs
+   AVX2 - enable use of instructions available with AVX2-enabled CPUs
+   AVX512 - enable use of instructions available with AVX-512-enabled CPUs
+/QIntel-jcc-erratum enable mitigations for Intel JCC erratum
+/Qspectre-load Enable spectre mitigations for all instructions which load memory
+/Qspectre-load-cf Enable spectre mitigations for all control-flow instructions which load memory
+/fpcvt:<IA|BC> FP to unsigned integer conversion compatibility
+   IA - results compatible with VCVTTSD2USI instruction
+   BC - results compatible with VS2017 and earlier compiler
+
+                              -OUTPUT FILES-
+
+/Fa[file] name assembly listing file    /FA[scu] configure assembly listing
+/Fd[file] name .PDB file                /Fe<file> name executable file
+/Fm[file] name map file                 /Fo<file> name object file
+/Fp<file> name precompiled header file  /Fr[file] name source browser file
+/FR[file] name extended .SBR file       /Fi[file] name preprocessed file
+/Fd: <file> name .PDB file              /Fe: <file> name executable file
+/Fm: <file> name map file               /Fo: <file> name object file
+/Fp: <file> name .PCH file              /FR: <file> name extended .SBR file
+/Fi: <file> name preprocessed file      
+/Ft<dir> location of the header files generated for #import
+/doc[file] process XML documentation comments and optionally name the .xdc file
+
+                              -PREPROCESSOR-
+
+/AI<dir> add to assembly search path    /FU<file> forced using assembly/module 
+/C don't strip comments                 /D<name>{=|#}<text> define macro
+/E preprocess to stdout                 /EP preprocess to stdout, no #line
+/P preprocess to file                   /Fx merge injected code to file
+/FI<file> name forced include file      /U<name> remove predefined macro
+/u remove all predefined macros         /I<dir> add to include search path
+/X ignore "standard places"             
+/PH generate #pragma file_hash when preprocessing
+/PD print all macro definitions         
+
+                                -LANGUAGE-
+
+/std:<c++14|c++17|c++latest> C++ standard version
+    c++14 - ISO/IEC 14882:2014 (default)
+    c++17 - ISO/IEC 14882:2017
+    c++latest - latest draft standard (feature set subject to change)
+/permissive[-] enable some nonconforming code to compile (feature set subject to change) (on by default)
+/Ze enable extensions (default)         /Za disable extensions
+/ZW enable WinRT language extensions    /Zs syntax check only
+/Zc:arg1[,arg2] C++ language conformance, where arguments can be:
+  forScope[-]           enforce Standard C++ for scoping rules
+  wchar_t[-]            wchar_t is the native type, not a typedef
+  auto[-]               enforce the new Standard C++ meaning for auto
+  trigraphs[-]          enable trigraphs (off by default)
+  rvalueCast[-]         enforce Standard C++ explicit type conversion rules
+  strictStrings[-]      disable string-literal to [char|wchar_t]*
+                        conversion (off by default)
+  implicitNoexcept[-]   enable implicit noexcept on required functions
+  threadSafeInit[-]     enable thread-safe local static initialization
+  inline[-]             remove unreferenced function or data if it is
+                        COMDAT or has internal linkage only (off by default)
+  sizedDealloc[-]       enable C++14 global sized deallocation
+                        functions (on by default)
+  throwingNew[-]        assume operator new throws on failure (off by default)
+  referenceBinding[-]   a temporary will not bind to an non-const
+                        lvalue reference (off by default)
+  twoPhase-             disable two-phase name lookup
+  ternary[-]            enforce C++11 rules for conditional operator (off by default)
+  noexceptTypes[-]      enforce C++17 noexcept rules (on by default in C++17 or later)
+  alignedNew[-]         enable C++17 alignment of dynamically allocated objects (on by default)
+  hiddenFriend[-]       enforce Standard C++ hidden friend rules (implied by /permissive-)
+  externC[-]            enforce Standard C++ rules for 'extern "C"' functions (implied by /permissive-)
+  lambda[-]             better lambda support by using the newer lambda processor (off by default)
+  tlsGuards[-]          generate runtime checks for TLS variable initialization (on by default)
+  zeroSizeArrayNew[-]   call member new/delete for 0-size arrays of objects (on by default)
+/await enable resumable functions extension
+/await:strict enable standard C++20 coroutine support with earlier language versions
+/constexpr:depth<N>     recursion depth limit for constexpr evaluation (default: 512)
+/constexpr:backtrace<N> show N constexpr evaluations in diagnostics (default: 10)
+/constexpr:steps<N>     terminate constexpr evaluation after N steps (default: 100000)
+/Zi enable debugging information        /Z7 enable old-style debug info
+/Zo[-] generate richer debugging information for optimized code (on by default)
+/ZH:[MD5|SHA1|SHA_256] hash algorithm for calculation of file checksum in debug info (default: MD5)
+/Zp[n] pack structs on n-byte boundary  /Zl omit default library name in .OBJ
+/vd{0|1|2} disable/enable vtordisp      /vm<x> type of pointers to members
+/std:<c11|c17> C standard version
+    c11 - ISO/IEC 9899:2011
+    c17 - ISO/IEC 9899:2018
+/ZI enable Edit and Continue debug info 
+/openmp enable OpenMP 2.0 language extensions
+/openmp:experimental enable OpenMP 2.0 language extensions plus select OpenMP 3.0+ language extensions
+/openmp:llvm OpenMP language extensions using LLVM runtime
+
+                              -MISCELLANEOUS-
+
+@<file> options response file           /?, /help print this help message
+/bigobj generate extended object format /c compile only, no link
+/errorReport:option deprecated. Report internal compiler errors to Microsoft
+    none - do not send report                
+    prompt - prompt to immediately send report
+    queue - at next admin logon, prompt to send report (default)
+    send - send report automatically         
+/FC use full pathnames in diagnostics   /H<num> max external name length
+/J default char type is unsigned        
+/MP[n] use up to 'n' processes for compilation
+/nologo suppress copyright message      /showIncludes show include file names
+/Tc<source file> compile file as .c     /Tp<source file> compile file as .cpp
+/TC compile all files as .c             /TP compile all files as .cpp
+/V<string> set version string           /Yc[file] create .PCH file
+/Yd put debug info in every .OBJ        /Yl[sym] inject .PCH ref for debug lib
+/Yu[file] use .PCH file                 /Y- disable all PCH options
+/Zm<n> max memory alloc (% of default)  /FS force to use MSPDBSRV.EXE
+/source-charset:<iana-name>|.nnnn set source character set
+/execution-charset:<iana-name>|.nnnn set execution character set
+/utf-8 set source and execution character set to UTF-8
+/validate-charset[-] validate UTF-8 files for only legal characters
+/fastfail[-] enable fast-fail mode      /JMC[-] enable native just my code
+/presetPadding[-] zero initialize padding for stack based class types
+/volatileMetadata[-] generate metadata on volatile memory accesses
+
+                                -LINKING-
+
+/LD Create .DLL                         /LDd Create .DLL debug library
+/LN Create a .netmodule                 /F<num> set stack size
+/link [linker options and libraries]    /MD link with MSVCRT.LIB
+/MT link with LIBCMT.LIB                /MDd link with MSVCRTD.LIB debug lib
+/MTd link with LIBCMTD.LIB debug lib    
+
+                              -CODE ANALYSIS-
+
+/analyze[-] Enable native analysis      /analyze:quiet[-] No warning to console
+/analyze:log<name> Warnings to file     /analyze:autolog Log to *.pftlog
+/analyze:autolog:ext<ext> Log to *.<ext>/analyze:autolog- No log file
+/analyze:WX- Warnings not fatal         /analyze:stacksize<num> Max stack frame
+/analyze:max_paths<num> Max paths       /analyze:only Analyze, no code gen
+
+                              -DIAGNOSTICS-
+
+/diagnostics:<args,...> controls the format of diagnostic messages:
+             classic   - retains prior format
+             column[-] - prints column information
+             caret[-]  - prints column and the indicated line of source
+/Wall enable all warnings               /w   disable all warnings
+/W<n> set warning level (default n=1)   
+/Wv:xx[.yy[.zzzzz]] disable warnings introduced after version xx.yy.zzzzz
+/WX treat warnings as errors            /WL enable one line diagnostics
+/wd<n> disable warning n                /we<n> treat warning n as an error
+/wo<n> issue warning n once             /w<l><n> set warning level 1-4 for n
+/external:I <path>      - location of external headers
+/external:env:<var>     - environment variable with locations of external headers
+/external:anglebrackets - treat all headers included via <> as external
+/external:W<n>          - warning level for external headers
+/external:templates[-]  - evaluate warning level across template instantiation chain
+/sdl enable additional security features and warnings
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/Matt/Code/etterna/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_1cb82 && [1/2] Building C object CMakeFiles\cmTC_1cb82.dir\CMakeCCompilerABI.c.obj
+[2/2] Linking C executable cmTC_1cb82.exe
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Users/Matt/Code/etterna/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_8fd8b && [1/2] Building CXX object CMakeFiles\cmTC_8fd8b.dir\CMakeCXXCompilerABI.cpp.obj
+[2/2] Linking CXX executable cmTC_8fd8b.exe
+
+
+
+Determining if the function getch exists in the ws2_32; passed with the following output:
+Change Dir: C:/Users/Matt/Code/etterna/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_7d368 && [1/2] Building C object CMakeFiles\cmTC_7d368.dir\CheckFunctionExists.c.obj
+[2/2] Linking C executable cmTC_7d368.exe
+
+
+
+Determining if the function getch exists in the winmm;ws2_32 passed with the following output:
+Change Dir: C:/Users/Matt/Code/etterna/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_8203f && [1/2] Building C object CMakeFiles\cmTC_8203f.dir\CheckFunctionExists.c.obj
+[2/2] Linking C executable cmTC_8203f.exe
+
+
+
+Determining if the include file openssl/crypto.h exists passed with the following output:
+Change Dir: C:/Users/Matt/Code/etterna/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_93251 && [1/2] Building C object CMakeFiles\cmTC_93251.dir\CheckIncludeFile.c.obj
+[2/2] Linking C executable cmTC_93251.exe
+
+
+
+Determining if the include file openssl/err.h exists passed with the following output:
+Change Dir: C:/Users/Matt/Code/etterna/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_c8f62 && [1/2] Building C object CMakeFiles\cmTC_c8f62.dir\CheckIncludeFile.c.obj
+[2/2] Linking C executable cmTC_c8f62.exe
+
+
+
+Determining if the include file openssl/pem.h exists passed with the following output:
+Change Dir: C:/Users/Matt/Code/etterna/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_eece4 && [1/2] Building C object CMakeFiles\cmTC_eece4.dir\CheckIncludeFile.c.obj
+[2/2] Linking C executable cmTC_eece4.exe
+
+
+
+Determining if the include file openssl/rsa.h exists passed with the following output:
+Change Dir: C:/Users/Matt/Code/etterna/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_318b0 && [1/2] Building C object CMakeFiles\cmTC_318b0.dir\CheckIncludeFile.c.obj
+[2/2] Linking C executable cmTC_318b0.exe
+
+
+
+Determining if the include file openssl/ssl.h exists passed with the following output:
+Change Dir: C:/Users/Matt/Code/etterna/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_bfd33 && [1/2] Building C object CMakeFiles\cmTC_bfd33.dir\CheckIncludeFile.c.obj
+[2/2] Linking C executable cmTC_bfd33.exe
+
+
+
+Determining if the include file openssl/x509.h exists passed with the following output:
+Change Dir: C:/Users/Matt/Code/etterna/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_8b546 && [1/2] Building C object CMakeFiles\cmTC_8b546.dir\CheckIncludeFile.c.obj
+[2/2] Linking C executable cmTC_8b546.exe
+
+
+
+Determining if the include file openssl/rand.h exists passed with the following output:
+Change Dir: C:/Users/Matt/Code/etterna/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_b0cd7 && [1/2] Building C object CMakeFiles\cmTC_b0cd7.dir\CheckIncludeFile.c.obj
+[2/2] Linking C executable cmTC_b0cd7.exe
+
+
+
+Determining if files ;windows.h exist passed with the following output:
+Change Dir: C:/Users/Matt/Code/etterna/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_0d576 && [1/2] Building C object CMakeFiles\cmTC_0d576.dir\HAVE_WINDOWS_H.c.obj
+[2/2] Linking C executable cmTC_0d576.exe
+
+
+
+Determining if files windows.h;ws2tcpip.h exist passed with the following output:
+Change Dir: C:/Users/Matt/Code/etterna/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_d66de && [1/2] Building C object CMakeFiles\cmTC_d66de.dir\HAVE_WS2TCPIP_H.c.obj
+[2/2] Linking C executable cmTC_d66de.exe
+
+
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h exist passed with the following output:
+Change Dir: C:/Users/Matt/Code/etterna/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_60213 && [1/2] Building C object CMakeFiles\cmTC_60213.dir\HAVE_WINSOCK2_H.c.obj
+[2/2] Linking C executable cmTC_60213.exe
+
+
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h exist passed with the following output:
+Change Dir: C:/Users/Matt/Code/etterna/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_08249 && [1/2] Building C object CMakeFiles\cmTC_08249.dir\HAVE_WINCRYPT_H.c.obj
+[2/2] Linking C executable cmTC_08249.exe
+
+
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h;stdio.h exist passed with the following output:
+Change Dir: C:/Users/Matt/Code/etterna/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_61ca8 && [1/2] Building C object CMakeFiles\cmTC_61ca8.dir\HAVE_STDIO_H.c.obj
+[2/2] Linking C executable cmTC_61ca8.exe
+
+
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h exist passed with the following output:
+Change Dir: C:/Users/Matt/Code/etterna/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_26568 && [1/2] Building C object CMakeFiles\cmTC_26568.dir\HAVE_ASSERT_H.c.obj
+[2/2] Linking C executable cmTC_26568.exe
+
+
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h exist passed with the following output:
+Change Dir: C:/Users/Matt/Code/etterna/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_734a5 && [1/2] Building C object CMakeFiles\cmTC_734a5.dir\HAVE_ERRNO_H.c.obj
+[2/2] Linking C executable cmTC_734a5.exe
+
+
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;io.h;locale.h exist passed with the following output:
+Change Dir: C:/Users/Matt/Code/etterna/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_d43e0 && [1/2] Building C object CMakeFiles\cmTC_d43e0.dir\HAVE_LOCALE_H.c.obj
+[2/2] Linking C executable cmTC_d43e0.exe
+
+
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;io.h;locale.h;setjmp.h;signal.h;stdbool.h exist passed with the following output:
+Change Dir: C:/Users/Matt/Code/etterna/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_42cb8 && [1/2] Building C object CMakeFiles\cmTC_42cb8.dir\HAVE_STDBOOL_H.c.obj
+[2/2] Linking C executable cmTC_42cb8.exe
+
+
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;io.h;locale.h;setjmp.h;signal.h;stdbool.h;stdio.h;stdlib.h;string.h;time.h;process.h;stddef.h exist passed with the following output:
+Change Dir: C:/Users/Matt/Code/etterna/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_47cab && [1/2] Building C object CMakeFiles\cmTC_47cab.dir\HAVE_STDDEF_H.c.obj
+[2/2] Linking C executable cmTC_47cab.exe
+
+
+
+Determining size of size_t passed with the following output:
+Change Dir: C:/Users/Matt/Code/etterna/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_7e8ae && [1/2] Building C object CMakeFiles\cmTC_7e8ae.dir\SIZEOF_SIZE_T.c.obj
+[2/2] Linking C executable cmTC_7e8ae.exe
+
+
+
+Determining size of long long passed with the following output:
+Change Dir: C:/Users/Matt/Code/etterna/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_fc3d4 && [1/2] Building C object CMakeFiles\cmTC_fc3d4.dir\SIZEOF_LONG_LONG.c.obj
+[2/2] Linking C executable cmTC_fc3d4.exe
+
+
+
+Determining size of long passed with the following output:
+Change Dir: C:/Users/Matt/Code/etterna/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_425fe && [1/2] Building C object CMakeFiles\cmTC_425fe.dir\SIZEOF_LONG.c.obj
+[2/2] Linking C executable cmTC_425fe.exe
+
+
+
+Determining size of short passed with the following output:
+Change Dir: C:/Users/Matt/Code/etterna/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_8acf5 && [1/2] Building C object CMakeFiles\cmTC_8acf5.dir\SIZEOF_SHORT.c.obj
+[2/2] Linking C executable cmTC_8acf5.exe
+
+
+
+Determining size of int passed with the following output:
+Change Dir: C:/Users/Matt/Code/etterna/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_5f3bc && [1/2] Building C object CMakeFiles\cmTC_5f3bc.dir\SIZEOF_INT.c.obj
+[2/2] Linking C executable cmTC_5f3bc.exe
+
+
+
+Determining size of __int64 passed with the following output:
+Change Dir: C:/Users/Matt/Code/etterna/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_b266c && [1/2] Building C object CMakeFiles\cmTC_b266c.dir\SIZEOF___INT64.c.obj
+[2/2] Linking C executable cmTC_b266c.exe
+
+
+
+Determining size of time_t passed with the following output:
+Change Dir: C:/Users/Matt/Code/etterna/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_f2a01 && [1/2] Building C object CMakeFiles\cmTC_f2a01.dir\SIZEOF_TIME_T.c.obj
+[2/2] Linking C executable cmTC_f2a01.exe
+
+
+
+Determining if the gethostbyname exist passed with the following output:
+Change Dir: C:/Users/Matt/Code/etterna/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_43b39 && [1/2] Building C object CMakeFiles\cmTC_43b39.dir\CheckSymbolExists.c.obj
+[2/2] Linking C executable cmTC_43b39.exe
+
+
+File C:/Users/Matt/Code/etterna/out/build/x64-Debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef gethostbyname
+  return ((int*)(&gethostbyname))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strtoll exist passed with the following output:
+Change Dir: C:/Users/Matt/Code/etterna/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_90e75 && [1/2] Building C object CMakeFiles\cmTC_90e75.dir\CheckSymbolExists.c.obj
+[2/2] Linking C executable cmTC_90e75.exe
+
+
+File C:/Users/Matt/Code/etterna/out/build/x64-Debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtoll
+  return ((int*)(&strtoll))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _strtoi64 exist passed with the following output:
+Change Dir: C:/Users/Matt/Code/etterna/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_1caf3 && [1/2] Building C object CMakeFiles\cmTC_1caf3.dir\CheckSymbolExists.c.obj
+[2/2] Linking C executable cmTC_1caf3.exe
+
+
+File C:/Users/Matt/Code/etterna/out/build/x64-Debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _strtoi64
+  return ((int*)(&_strtoi64))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the freeaddrinfo exist passed with the following output:
+Change Dir: C:/Users/Matt/Code/etterna/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_f2e38 && [1/2] Building C object CMakeFiles\cmTC_f2e38.dir\CheckSymbolExists.c.obj
+[2/2] Linking C executable cmTC_f2e38.exe
+
+
+File C:/Users/Matt/Code/etterna/out/build/x64-Debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef freeaddrinfo
+  return ((int*)(&freeaddrinfo))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getprotobyname exist passed with the following output:
+Change Dir: C:/Users/Matt/Code/etterna/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_60a9f && [1/2] Building C object CMakeFiles\cmTC_60a9f.dir\CheckSymbolExists.c.obj
+[2/2] Linking C executable cmTC_60a9f.exe
+
+
+File C:/Users/Matt/Code/etterna/out/build/x64-Debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getprotobyname
+  return ((int*)(&getprotobyname))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getpeername exist passed with the following output:
+Change Dir: C:/Users/Matt/Code/etterna/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_1a384 && [1/2] Building C object CMakeFiles\cmTC_1a384.dir\CheckSymbolExists.c.obj
+[2/2] Linking C executable cmTC_1a384.exe
+
+
+File C:/Users/Matt/Code/etterna/out/build/x64-Debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getpeername
+  return ((int*)(&getpeername))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getsockname exist passed with the following output:
+Change Dir: C:/Users/Matt/Code/etterna/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_59a2b && [1/2] Building C object CMakeFiles\cmTC_59a2b.dir\CheckSymbolExists.c.obj
+[2/2] Linking C executable cmTC_59a2b.exe
+
+
+File C:/Users/Matt/Code/etterna/out/build/x64-Debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getsockname
+  return ((int*)(&getsockname))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the setlocale exist passed with the following output:
+Change Dir: C:/Users/Matt/Code/etterna/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_0443d && [1/2] Building C object CMakeFiles\cmTC_0443d.dir\CheckSymbolExists.c.obj
+[2/2] Linking C executable cmTC_0443d.exe
+
+
+File C:/Users/Matt/Code/etterna/out/build/x64-Debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setlocale
+  return ((int*)(&setlocale))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the setmode exist passed with the following output:
+Change Dir: C:/Users/Matt/Code/etterna/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_402eb && [1/2] Building C object CMakeFiles\cmTC_402eb.dir\CheckSymbolExists.c.obj
+[2/2] Linking C executable cmTC_402eb.exe
+
+
+File C:/Users/Matt/Code/etterna/out/build/x64-Debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setmode
+  return ((int*)(&setmode))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the setsockopt exist passed with the following output:
+Change Dir: C:/Users/Matt/Code/etterna/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_9d78f && [1/2] Building C object CMakeFiles\cmTC_9d78f.dir\CheckSymbolExists.c.obj
+[2/2] Linking C executable cmTC_9d78f.exe
+
+
+File C:/Users/Matt/Code/etterna/out/build/x64-Debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setsockopt
+  return ((int*)(&setsockopt))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the inet_pton exist passed with the following output:
+Change Dir: C:/Users/Matt/Code/etterna/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_15f46 && [1/2] Building C object CMakeFiles\cmTC_15f46.dir\CheckSymbolExists.c.obj
+[2/2] Linking C executable cmTC_15f46.exe
+
+
+File C:/Users/Matt/Code/etterna/out/build/x64-Debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef inet_pton
+  return ((int*)(&inet_pton))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing Curl Test HAVE_IOCTLSOCKET passed with the following output:
+Change Dir: C:/Users/Matt/Code/etterna/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_541ec && [1/2] Building C object CMakeFiles\cmTC_541ec.dir\CurlTests.c.obj
+C:\Users\Matt\Code\etterna\extern\curl\CMake\CurlTests.c(241) : warning C4700: uninitialized local variable 'socket' used
+[2/2] Linking C executable cmTC_541ec.exe
+
+
+Performing Curl Test HAVE_IOCTLSOCKET_FIONBIO passed with the following output:
+Change Dir: C:/Users/Matt/Code/etterna/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_63892 && [1/2] Building C object CMakeFiles\cmTC_63892.dir\CurlTests.c.obj
+[2/2] Linking C executable cmTC_63892.exe
+
+
+Performing Curl Test HAVE_BOOL_T passed with the following output:
+Change Dir: C:/Users/Matt/Code/etterna/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_5ed96 && [1/2] Building C object CMakeFiles\cmTC_5ed96.dir\CurlTests.c.obj
+[2/2] Linking C executable cmTC_5ed96.exe
+
+
+Performing Curl Test HAVE_VARIADIC_MACROS_C99 passed with the following output:
+Change Dir: C:/Users/Matt/Code/etterna/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_92225 && [1/2] Building C object CMakeFiles\cmTC_92225.dir\CurlTests.c.obj
+[2/2] Linking C executable cmTC_92225.exe
+
+
+Determining size of off_t passed with the following output:
+Change Dir: C:/Users/Matt/Code/etterna/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_f2512 && [1/2] Building C object CMakeFiles\cmTC_f2512.dir\SIZEOF_OFF_T.c.obj
+[2/2] Linking C executable cmTC_f2512.exe
+
+
+
+Determining size of curl_off_t passed with the following output:
+Change Dir: C:/Users/Matt/Code/etterna/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_cfe39 && [1/2] Building C object CMakeFiles\cmTC_cfe39.dir\SIZEOF_CURL_OFF_T.c.obj
+[2/2] Linking C executable cmTC_cfe39.exe
+
+
+
+Performing C SOURCE FILE Test curl_cv_recv succeeded with the following output:
+Change Dir: C:/Users/Matt/Code/etterna/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_2bdab && [1/2] Building C object CMakeFiles\cmTC_2bdab.dir\src.c.obj
+[2/2] Linking C static library cmTC_2bdab.lib
+
+
+Source file was:
+#undef inline
+#include <winsock2.h>
+#include <windows.h>
+#ifndef WIN32_LEAN_AND_MEAN
+#define WIN32_LEAN_AND_MEAN
+#endif
+int main(void) {
+    recv(0, 0, 0, 0);
+    return 0;
+}
+Performing C SOURCE FILE Test curl_cv_func_recv_test succeeded with the following output:
+Change Dir: C:/Users/Matt/Code/etterna/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_03765 && [1/2] Building C object CMakeFiles\cmTC_03765.dir\src.c.obj
+[2/2] Linking C static library cmTC_03765.lib
+
+
+Source file was:
+
+    #undef inline
+#include <winsock2.h>
+#include <windows.h>
+#ifndef WIN32_LEAN_AND_MEAN
+#define WIN32_LEAN_AND_MEAN
+#endif
+    #ifdef WINSOCK_API_LINKAGE
+    WINSOCK_API_LINKAGE
+    #endif
+    extern int PASCAL
+    recv(SOCKET, char *, int, int);
+    int main(void) {
+      SOCKET s=0;
+      char * buf=0;
+      int len=0;
+      int flags=0;
+      int res = recv(s, buf, len, flags);
+      (void) res;
+      return 0;
+    }
+Performing C SOURCE FILE Test curl_cv_send succeeded with the following output:
+Change Dir: C:/Users/Matt/Code/etterna/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_fdb56 && [1/2] Building C object CMakeFiles\cmTC_fdb56.dir\src.c.obj
+[2/2] Linking C static library cmTC_fdb56.lib
+
+
+Source file was:
+#undef inline
+#include <winsock2.h>
+#include <windows.h>
+#ifndef WIN32_LEAN_AND_MEAN
+#define WIN32_LEAN_AND_MEAN
+#endif
+int main(void) {
+    send(0, 0, 0, 0);
+    return 0;
+}
+Performing C SOURCE FILE Test curl_cv_func_send_test succeeded with the following output:
+Change Dir: C:/Users/Matt/Code/etterna/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_fe7d7 && [1/2] Building C object CMakeFiles\cmTC_fe7d7.dir\src.c.obj
+[2/2] Linking C static library cmTC_fe7d7.lib
+
+
+Source file was:
+
+    #undef inline
+#include <winsock2.h>
+#include <windows.h>
+#ifndef WIN32_LEAN_AND_MEAN
+#define WIN32_LEAN_AND_MEAN
+#endif
+    #ifdef WINSOCK_API_LINKAGE
+    WINSOCK_API_LINKAGE
+    #endif
+    extern int PASCAL
+    send(SOCKET, const char *, int, int);
+    int main(void) {
+      SOCKET s=0;
+      const char * buf=0;
+      int len=0;
+      int flags=0;
+      int res = send(s, buf, len, flags);
+      (void) res;
+      return 0;
+    }
+Performing C SOURCE FILE Test HAVE_STRUCT_TIMEVAL succeeded with the following output:
+Change Dir: C:/Users/Matt/Code/etterna/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_34125 && [1/2] Building C object CMakeFiles\cmTC_34125.dir\src.c.obj
+[2/2] Linking C static library cmTC_34125.lib
+
+
+Source file was:
+#undef inline
+#include <winsock2.h>
+#include <windows.h>
+#ifndef WIN32_LEAN_AND_MEAN
+#define WIN32_LEAN_AND_MEAN
+#endif
+int main(void) {
+  struct timeval ts;
+  ts.tv_sec  = 0;
+  ts.tv_usec = 0;
+  (void)ts;
+  return 0;
+}
+Determining size of struct sockaddr_storage passed with the following output:
+Change Dir: C:/Users/Matt/Code/etterna/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_cfbb5 && [1/2] Building C object CMakeFiles\cmTC_cfbb5.dir\SIZEOF_STRUCT_SOCKADDR_STORAGE.c.obj
+[2/2] Linking C static library cmTC_cfbb5.lib
+
+
+
+Determining if the CryptAcquireContext exist passed with the following output:
+Change Dir: C:/Users/Matt/Code/etterna/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_2b872 && [1/2] Building C object CMakeFiles\cmTC_2b872.dir\CheckSymbolExists.c.obj
+[2/2] Linking C executable cmTC_2b872.exe
+
+
+File C:/Users/Matt/Code/etterna/out/build/x64-Debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CryptAcquireContext
+  return ((int*)(&CryptAcquireContext))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: C:/Users/Matt/Code/etterna/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_4752b && [1/2] Building C object CMakeFiles\cmTC_4752b.dir\CheckIncludeFile.c.obj
+[2/2] Linking C executable cmTC_4752b.exe
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: C:/Users/Matt/Code/etterna/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_e8803 && [1/2] Building C object CMakeFiles\cmTC_e8803.dir\CheckIncludeFile.c.obj
+[2/2] Linking C executable cmTC_e8803.exe
+
+
+
+Performing C++ SOURCE FILE Test SUPPORTS_USER_DEFINED_LITERALS succeeded with the following output:
+Change Dir: C:/Users/Matt/Code/etterna/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_15a2c && [1/2] Building CXX object CMakeFiles\cmTC_15a2c.dir\src.cxx.obj
+[2/2] Linking CXX executable cmTC_15a2c.exe
+
+
+Source file was:
+
+  void operator"" _udl(long double);
+  int main() {}
+Performing C++ SOURCE FILE Test FMT_HAS_VARIANT succeeded with the following output:
+Change Dir: C:/Users/Matt/Code/etterna/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_26f4c && [1/2] Building CXX object CMakeFiles\cmTC_26f4c.dir\src.cxx.obj
+cl : Command line warning D9002 : ignoring unknown option '-std=c++1z'
+[2/2] Linking CXX executable cmTC_26f4c.exe
+
+
+Source file was:
+
+  #include <variant>
+  int main() {}
+Determining if the _strtod_l exist passed with the following output:
+Change Dir: C:/Users/Matt/Code/etterna/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_cdfa3 && [1/2] Building C object CMakeFiles\cmTC_cdfa3.dir\CheckSymbolExists.c.obj
+[2/2] Linking C executable cmTC_cdfa3.exe
+
+
+File C:/Users/Matt/Code/etterna/out/build/x64-Debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _strtod_l
+  return ((int*)(&_strtod_l))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if files fcntl.h exist passed with the following output:
+Change Dir: C:/Users/Matt/Code/etterna/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_4770d && [1/2] Building C object CMakeFiles\cmTC_4770d.dir\HAVE_FCNTL_H.c.obj
+[2/2] Linking C executable cmTC_4770d.exe
+
+
+
+Determining if files inttypes.h exist passed with the following output:
+Change Dir: C:/Users/Matt/Code/etterna/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_e8140 && [1/2] Building C object CMakeFiles\cmTC_e8140.dir\HAVE_INTTYPES_H.c.obj
+[2/2] Linking C executable cmTC_e8140.exe
+
+
+
+Determining if the function _mkdir exists passed with the following output:
+Change Dir: C:/Users/Matt/Code/etterna/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_2fbc2 && [1/2] Building C object CMakeFiles\cmTC_2fbc2.dir\CheckFunctionExists.c.obj
+[2/2] Linking C executable cmTC_2fbc2.exe
+
+
+
+Determining if the _snprintf exist passed with the following output:
+Change Dir: C:/Users/Matt/Code/etterna/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_12f89 && [1/2] Building CXX object CMakeFiles\cmTC_12f89.dir\CheckSymbolExists.cxx.obj
+[2/2] Linking CXX executable cmTC_12f89.exe
+
+
+File C:/Users/Matt/Code/etterna/out/build/x64-Debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <cstdio>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _snprintf
+  return ((int*)(&_snprintf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the stricmp exist passed with the following output:
+Change Dir: C:/Users/Matt/Code/etterna/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_7c6b9 && [1/2] Building CXX object CMakeFiles\cmTC_7c6b9.dir\CheckSymbolExists.cxx.obj
+[2/2] Linking CXX executable cmTC_7c6b9.exe
+
+
+File C:/Users/Matt/Code/etterna/out/build/x64-Debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <cstring>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef stricmp
+  return ((int*)(&stricmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _stricmp exist passed with the following output:
+Change Dir: C:/Users/Matt/Code/etterna/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_57d00 && [1/2] Building CXX object CMakeFiles\cmTC_57d00.dir\CheckSymbolExists.cxx.obj
+[2/2] Linking CXX executable cmTC_57d00.exe
+
+
+File C:/Users/Matt/Code/etterna/out/build/x64-Debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <cstring>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _stricmp
+  return ((int*)(&_stricmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the function mkdir exists passed with the following output:
+Change Dir: C:/Users/Matt/Code/etterna/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_ef766 && [1/2] Building C object CMakeFiles\cmTC_ef766.dir\CheckFunctionExists.c.obj
+[2/2] Linking C executable cmTC_ef766.exe
+
+
+
+Determining if the snprintf exist passed with the following output:
+Change Dir: C:/Users/Matt/Code/etterna/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_9279d && [1/2] Building CXX object CMakeFiles\cmTC_9279d.dir\CheckSymbolExists.cxx.obj
+[2/2] Linking CXX executable cmTC_9279d.exe
+
+
+File C:/Users/Matt/Code/etterna/out/build/x64-Debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <cstdio>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef snprintf
+  return ((int*)(&snprintf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}

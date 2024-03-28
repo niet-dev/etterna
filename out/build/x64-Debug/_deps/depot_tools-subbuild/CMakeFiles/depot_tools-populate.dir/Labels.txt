@@ -1,0 +1,14 @@
+# Target labels
+ depot_tools-populate
+# Source files and their labels
+C:/Users/Matt/Code/etterna/out/build/x64-Debug/_deps/depot_tools-subbuild/CMakeFiles/depot_tools-populate
+C:/Users/Matt/Code/etterna/out/build/x64-Debug/_deps/depot_tools-subbuild/CMakeFiles/depot_tools-populate.rule
+C:/Users/Matt/Code/etterna/out/build/x64-Debug/_deps/depot_tools-subbuild/CMakeFiles/depot_tools-populate-complete.rule
+C:/Users/Matt/Code/etterna/out/build/x64-Debug/_deps/depot_tools-subbuild/depot_tools-populate-prefix/src/depot_tools-populate-stamp/depot_tools-populate-build.rule
+C:/Users/Matt/Code/etterna/out/build/x64-Debug/_deps/depot_tools-subbuild/depot_tools-populate-prefix/src/depot_tools-populate-stamp/depot_tools-populate-configure.rule
+C:/Users/Matt/Code/etterna/out/build/x64-Debug/_deps/depot_tools-subbuild/depot_tools-populate-prefix/src/depot_tools-populate-stamp/depot_tools-populate-download.rule
+C:/Users/Matt/Code/etterna/out/build/x64-Debug/_deps/depot_tools-subbuild/depot_tools-populate-prefix/src/depot_tools-populate-stamp/depot_tools-populate-install.rule
+C:/Users/Matt/Code/etterna/out/build/x64-Debug/_deps/depot_tools-subbuild/depot_tools-populate-prefix/src/depot_tools-populate-stamp/depot_tools-populate-mkdir.rule
+C:/Users/Matt/Code/etterna/out/build/x64-Debug/_deps/depot_tools-subbuild/depot_tools-populate-prefix/src/depot_tools-populate-stamp/depot_tools-populate-patch.rule
+C:/Users/Matt/Code/etterna/out/build/x64-Debug/_deps/depot_tools-subbuild/depot_tools-populate-prefix/src/depot_tools-populate-stamp/depot_tools-populate-test.rule
+C:/Users/Matt/Code/etterna/out/build/x64-Debug/_deps/depot_tools-subbuild/depot_tools-populate-prefix/src/depot_tools-populate-stamp/depot_tools-populate-update.rule

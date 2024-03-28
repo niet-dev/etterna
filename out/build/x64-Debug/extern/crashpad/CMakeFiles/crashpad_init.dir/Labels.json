@@ -1,0 +1,49 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/Matt/Code/etterna/out/build/x64-Debug/extern/crashpad/CMakeFiles/crashpad_init"
+		},
+		{
+			"file" : "C:/Users/Matt/Code/etterna/out/build/x64-Debug/extern/crashpad/CMakeFiles/crashpad_init.rule"
+		},
+		{
+			"file" : "C:/Users/Matt/Code/etterna/out/build/x64-Debug/extern/crashpad/CMakeFiles/crashpad_init-complete.rule"
+		},
+		{
+			"file" : "C:/Users/Matt/Code/etterna/out/build/x64-Debug/gn_crashpad/src/crashpad_init-stamp/crashpad_init-build.rule"
+		},
+		{
+			"file" : "C:/Users/Matt/Code/etterna/out/build/x64-Debug/gn_crashpad/src/crashpad_init-stamp/crashpad_init-configure.rule"
+		},
+		{
+			"file" : "C:/Users/Matt/Code/etterna/out/build/x64-Debug/gn_crashpad/src/crashpad_init-stamp/crashpad_init-download.rule"
+		},
+		{
+			"file" : "C:/Users/Matt/Code/etterna/out/build/x64-Debug/gn_crashpad/src/crashpad_init-stamp/crashpad_init-gn_configure.rule"
+		},
+		{
+			"file" : "C:/Users/Matt/Code/etterna/out/build/x64-Debug/gn_crashpad/src/crashpad_init-stamp/crashpad_init-install.rule"
+		},
+		{
+			"file" : "C:/Users/Matt/Code/etterna/out/build/x64-Debug/gn_crashpad/src/crashpad_init-stamp/crashpad_init-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/Matt/Code/etterna/out/build/x64-Debug/gn_crashpad/src/crashpad_init-stamp/crashpad_init-patch.rule"
+		},
+		{
+			"file" : "C:/Users/Matt/Code/etterna/out/build/x64-Debug/gn_crashpad/src/crashpad_init-stamp/crashpad_init-test.rule"
+		},
+		{
+			"file" : "C:/Users/Matt/Code/etterna/out/build/x64-Debug/gn_crashpad/src/crashpad_init-stamp/crashpad_init-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"crashpad_init"
+		],
+		"name" : "crashpad_init"
+	}
+}

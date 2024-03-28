@@ -1,0 +1,1207 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						32,
+						46,
+						47,
+						48,
+						49
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						7,
+						10
+					]
+				},
+				{
+					"build" : "extern",
+					"childIndexes" : 
+					[
+						2,
+						4,
+						6,
+						7,
+						9,
+						11,
+						12,
+						15,
+						16,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "extern"
+				},
+				{
+					"build" : "extern/curl",
+					"childIndexes" : 
+					[
+						3
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "extern/curl",
+					"targetIndexes" : 
+					[
+						28
+					]
+				},
+				{
+					"build" : "extern/curl/lib",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "extern/curl/lib",
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"build" : "extern/SQLiteCpp",
+					"childIndexes" : 
+					[
+						5
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "extern/SQLiteCpp",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "extern/SQLiteCpp/sqlite3",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 2,
+					"source" : "extern/SQLiteCpp/sqlite3",
+					"targetIndexes" : 
+					[
+						26
+					]
+				},
+				{
+					"build" : "extern/asio-1.12.2",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "extern/asio-1.12.2"
+				},
+				{
+					"build" : "extern/websocketpp",
+					"childIndexes" : 
+					[
+						8
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 3,
+					"source" : "extern/websocketpp"
+				},
+				{
+					"build" : "extern/websocketpp/websocketpp",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.8"
+					},
+					"parentIndex" : 7,
+					"projectIndex" : 3,
+					"source" : "extern/websocketpp/websocketpp"
+				},
+				{
+					"build" : "extern/discord-rpc",
+					"childIndexes" : 
+					[
+						10
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 4,
+					"source" : "extern/discord-rpc"
+				},
+				{
+					"build" : "extern/discord-rpc/src",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2.0"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 4,
+					"source" : "extern/discord-rpc/src",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "extern/plog",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 5,
+					"source" : "extern/plog"
+				},
+				{
+					"build" : "extern/rapidjson",
+					"childIndexes" : 
+					[
+						13,
+						14
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 6,
+					"source" : "extern/rapidjson",
+					"targetIndexes" : 
+					[
+						27
+					]
+				},
+				{
+					"build" : "extern/rapidjson/doc",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 12,
+					"projectIndex" : 6,
+					"source" : "extern/rapidjson/doc",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "extern/rapidjson/test",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 12,
+					"projectIndex" : 6,
+					"source" : "extern/rapidjson/test"
+				},
+				{
+					"build" : "extern/stb",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "extern/stb"
+				},
+				{
+					"build" : "extern/luajit",
+					"childIndexes" : 
+					[
+						17
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 7,
+					"source" : "extern/luajit"
+				},
+				{
+					"build" : "extern/luajit/src",
+					"childIndexes" : 
+					[
+						18,
+						19
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 16,
+					"projectIndex" : 7,
+					"source" : "extern/luajit/src",
+					"targetIndexes" : 
+					[
+						3,
+						12,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "extern/luajit/src/host/cmake/minilua",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 17,
+					"projectIndex" : 8,
+					"source" : "extern/luajit/src/host/cmake/minilua",
+					"targetIndexes" : 
+					[
+						18
+					]
+				},
+				{
+					"build" : "extern/luajit/src/host/cmake/buildvm",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 17,
+					"projectIndex" : 9,
+					"source" : "extern/luajit/src/host/cmake/buildvm",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "extern/muFFT",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 10,
+					"source" : "extern/muFFT",
+					"targetIndexes" : 
+					[
+						19,
+						20,
+						21,
+						22
+					]
+				},
+				{
+					"build" : "extern/glew-1.5.8",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "extern/glew-1.5.8",
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"build" : "extern/pcre",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "extern/pcre",
+					"targetIndexes" : 
+					[
+						25
+					]
+				},
+				{
+					"build" : "extern/zlib",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 11,
+					"source" : "extern/zlib",
+					"targetIndexes" : 
+					[
+						30
+					]
+				},
+				{
+					"build" : "extern/mad-0.15.1b",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 12,
+					"source" : "extern/mad-0.15.1b",
+					"targetIndexes" : 
+					[
+						13
+					]
+				},
+				{
+					"build" : "extern/fmt",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 13,
+					"source" : "extern/fmt",
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"build" : "extern/boost/nowide",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.9"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 14,
+					"source" : "extern/boost/nowide",
+					"targetIndexes" : 
+					[
+						23
+					]
+				},
+				{
+					"build" : "extern/filesystem",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7.2"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 15,
+					"source" : "extern/filesystem"
+				},
+				{
+					"build" : "extern/newogg",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "extern/newogg",
+					"targetIndexes" : 
+					[
+						24
+					]
+				},
+				{
+					"build" : "extern/newvorbis",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "extern/newvorbis",
+					"targetIndexes" : 
+					[
+						29
+					]
+				},
+				{
+					"build" : "extern/crashpad",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "extern/crashpad",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "extern/ffmpeg",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "extern/ffmpeg"
+				},
+				{
+					"build" : "src/Etterna",
+					"childIndexes" : 
+					[
+						33,
+						34,
+						35,
+						36,
+						43,
+						44,
+						45
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/Etterna"
+				},
+				{
+					"build" : "src/Etterna/Actor",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15.0"
+					},
+					"parentIndex" : 32,
+					"projectIndex" : 0,
+					"source" : "src/Etterna/Actor"
+				},
+				{
+					"build" : "src/Etterna/FileTypes",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15.0"
+					},
+					"parentIndex" : 32,
+					"projectIndex" : 0,
+					"source" : "src/Etterna/FileTypes"
+				},
+				{
+					"build" : "src/Etterna/Globals",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15.0"
+					},
+					"parentIndex" : 32,
+					"projectIndex" : 0,
+					"source" : "src/Etterna/Globals"
+				},
+				{
+					"build" : "src/Etterna/MinaCalc",
+					"childIndexes" : 
+					[
+						37,
+						40
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15.0"
+					},
+					"parentIndex" : 32,
+					"projectIndex" : 0,
+					"source" : "src/Etterna/MinaCalc"
+				},
+				{
+					"build" : "src/Etterna/MinaCalc/Agnostic",
+					"childIndexes" : 
+					[
+						38,
+						39
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15.0"
+					},
+					"parentIndex" : 36,
+					"projectIndex" : 0,
+					"source" : "src/Etterna/MinaCalc/Agnostic"
+				},
+				{
+					"build" : "src/Etterna/MinaCalc/Agnostic/HA_PatternMods",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15.0"
+					},
+					"parentIndex" : 37,
+					"projectIndex" : 0,
+					"source" : "src/Etterna/MinaCalc/Agnostic/HA_PatternMods"
+				},
+				{
+					"build" : "src/Etterna/MinaCalc/Agnostic/HA_Sequencers",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15.0"
+					},
+					"parentIndex" : 37,
+					"projectIndex" : 0,
+					"source" : "src/Etterna/MinaCalc/Agnostic/HA_Sequencers"
+				},
+				{
+					"build" : "src/Etterna/MinaCalc/Dependent",
+					"childIndexes" : 
+					[
+						41,
+						42
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15.0"
+					},
+					"parentIndex" : 36,
+					"projectIndex" : 0,
+					"source" : "src/Etterna/MinaCalc/Dependent"
+				},
+				{
+					"build" : "src/Etterna/MinaCalc/Dependent/HD_PatternMods",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15.0"
+					},
+					"parentIndex" : 40,
+					"projectIndex" : 0,
+					"source" : "src/Etterna/MinaCalc/Dependent/HD_PatternMods"
+				},
+				{
+					"build" : "src/Etterna/MinaCalc/Dependent/HD_Sequencers",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15.0"
+					},
+					"parentIndex" : 40,
+					"projectIndex" : 0,
+					"source" : "src/Etterna/MinaCalc/Dependent/HD_Sequencers"
+				},
+				{
+					"build" : "src/Etterna/Models",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15.0"
+					},
+					"parentIndex" : 32,
+					"projectIndex" : 0,
+					"source" : "src/Etterna/Models"
+				},
+				{
+					"build" : "src/Etterna/Screen",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15.0"
+					},
+					"parentIndex" : 32,
+					"projectIndex" : 0,
+					"source" : "src/Etterna/Screen"
+				},
+				{
+					"build" : "src/Etterna/Singletons",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15.0"
+					},
+					"parentIndex" : 32,
+					"projectIndex" : 0,
+					"source" : "src/Etterna/Singletons"
+				},
+				{
+					"build" : "src/arch",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/arch"
+				},
+				{
+					"build" : "src/archutils",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/archutils"
+				},
+				{
+					"build" : "src/RageUtil",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/RageUtil"
+				},
+				{
+					"build" : "src/Core",
+					"childIndexes" : 
+					[
+						50
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/Core"
+				},
+				{
+					"build" : "src/Core/Platform",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15.0"
+					},
+					"parentIndex" : 49,
+					"projectIndex" : 0,
+					"source" : "src/Core/Platform"
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						6,
+						15,
+						21,
+						22,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50
+					],
+					"name" : "Etterna",
+					"targetIndexes" : 
+					[
+						0,
+						4,
+						7,
+						9,
+						10,
+						24,
+						25,
+						29
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2,
+						3
+					],
+					"name" : "CURL",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						11,
+						28
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4,
+						5
+					],
+					"name" : "SQLiteCpp",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						26
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7,
+						8
+					],
+					"name" : "websocketpp",
+					"parentIndex" : 0
+				},
+				{
+					"directoryIndexes" : 
+					[
+						9,
+						10
+					],
+					"name" : "DiscordRPC",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						11
+					],
+					"name" : "plog",
+					"parentIndex" : 0
+				},
+				{
+					"directoryIndexes" : 
+					[
+						12,
+						13,
+						14
+					],
+					"name" : "RapidJSON",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6,
+						27
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						8,
+						9
+					],
+					"directoryIndexes" : 
+					[
+						16,
+						17
+					],
+					"name" : "luajit",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3,
+						12,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						18
+					],
+					"name" : "minilua",
+					"parentIndex" : 7,
+					"targetIndexes" : 
+					[
+						18
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						19
+					],
+					"name" : "buildvm",
+					"parentIndex" : 7,
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						20
+					],
+					"name" : "muFFT",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						19,
+						20,
+						21,
+						22
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						23
+					],
+					"name" : "zlib",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						30
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						24
+					],
+					"name" : "libmad",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						13
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						25
+					],
+					"name" : "FMT",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						26
+					],
+					"name" : "nowide",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						23
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						27
+					],
+					"name" : "ghcfilesystem",
+					"parentIndex" : 0
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Etterna::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Etterna-Debug-caf223880f5abf2c5ed4.json",
+					"name" : "Etterna",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "SQLiteCpp::@115febdf409dab373f48",
+					"jsonFile" : "target-SQLiteCpp-Debug-412bc56df05045f1682e.json",
+					"name" : "SQLiteCpp",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 19,
+					"id" : "buildvm::@398bf6107adbc178daca",
+					"jsonFile" : "target-buildvm-Debug-4524f8af14eb63e79d23.json",
+					"name" : "buildvm",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "buildvm_arch_h::@0379e40efa6c9b0db542",
+					"jsonFile" : "target-buildvm_arch_h-Debug-339ad14f555d5445f5a1.json",
+					"name" : "buildvm_arch_h",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 30,
+					"id" : "crashpad_init::@2b8948875a54b87fb9d7",
+					"jsonFile" : "target-crashpad_init-Debug-8c35204ea8b0d1442681.json",
+					"name" : "crashpad_init",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "discord-rpc::@6f9ea695102aacf360cf",
+					"jsonFile" : "target-discord-rpc-Debug-503b8c76c9153a07ffb0.json",
+					"name" : "discord-rpc",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "doc::@8808cd889cd4136214d5",
+					"jsonFile" : "target-doc-Debug-268af883ac0b5640bb59.json",
+					"name" : "doc",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "doxygen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-doxygen-Debug-c844d11b5a7663640a54.json",
+					"name" : "doxygen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 25,
+					"id" : "fmt::@a986bbf845894c9bcc76",
+					"jsonFile" : "target-fmt-Debug-86b721049f192637fc37.json",
+					"name" : "fmt",
+					"projectIndex" : 13
+				},
+				{
+					"directoryIndex" : 21,
+					"id" : "glfw::@0145340b1fa0799262fd",
+					"jsonFile" : "target-glfw-Debug-6aa36a92f3c69e4f4acc.json",
+					"name" : "glfw",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ldoc::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ldoc-Debug-945a319f636f153d1783.json",
+					"name" : "ldoc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "libcurl::@1f7f7e7b6ce47363a229",
+					"jsonFile" : "target-libcurl-Debug-2528e635ca2c64eb1d13.json",
+					"name" : "libcurl",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "libluajit::@0379e40efa6c9b0db542",
+					"jsonFile" : "target-libluajit-Debug-c41192b4c28d7f8fd563.json",
+					"name" : "libluajit",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 24,
+					"id" : "libmad::@798e865ec910ad65011d",
+					"jsonFile" : "target-libmad-Debug-4c1374238f26f001a721.json",
+					"name" : "libmad",
+					"projectIndex" : 12
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "lj_gen_folddef::@0379e40efa6c9b0db542",
+					"jsonFile" : "target-lj_gen_folddef-Debug-b4f362ba1daf37c0e881.json",
+					"name" : "lj_gen_folddef",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "lj_gen_headers::@0379e40efa6c9b0db542",
+					"jsonFile" : "target-lj_gen_headers-Debug-29ceffa741e520d523d6.json",
+					"name" : "lj_gen_headers",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "lj_gen_vm_s::@0379e40efa6c9b0db542",
+					"jsonFile" : "target-lj_gen_vm_s-Debug-e5790a16955932cbffd2.json",
+					"name" : "lj_gen_vm_s",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "luajit::@0379e40efa6c9b0db542",
+					"jsonFile" : "target-luajit-Debug-65d2e5c7769adbab4429.json",
+					"name" : "luajit",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "minilua::@233f5864c549c3c47c18",
+					"jsonFile" : "target-minilua-Debug-8504535648389aa71406.json",
+					"name" : "minilua",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 20,
+					"id" : "muFFT::@fd58ae45035992d40149",
+					"jsonFile" : "target-muFFT-Debug-04250661893feb34c5d9.json",
+					"name" : "muFFT",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 20,
+					"id" : "muFFT-avx::@fd58ae45035992d40149",
+					"jsonFile" : "target-muFFT-avx-Debug-38f4b920d28147345f74.json",
+					"name" : "muFFT-avx",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 20,
+					"id" : "muFFT-sse::@fd58ae45035992d40149",
+					"jsonFile" : "target-muFFT-sse-Debug-40e50a35d2499413629d.json",
+					"name" : "muFFT-sse",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 20,
+					"id" : "muFFT-sse3::@fd58ae45035992d40149",
+					"jsonFile" : "target-muFFT-sse3-Debug-fff3fa47bd0249cfa824.json",
+					"name" : "muFFT-sse3",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 26,
+					"id" : "nowide::@3d74e3a6bba56a61f018",
+					"jsonFile" : "target-nowide-Debug-a4f4107346680432f3d3.json",
+					"name" : "nowide",
+					"projectIndex" : 14
+				},
+				{
+					"directoryIndex" : 28,
+					"id" : "ogg::@dffb81a1b6ca04e29f76",
+					"jsonFile" : "target-ogg-Debug-dd5a368fcd86ba2b8e6d.json",
+					"name" : "ogg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 22,
+					"id" : "pcre::@ac544a8f7ffcfde7e7dc",
+					"jsonFile" : "target-pcre-Debug-268d493b6dbb42be16af.json",
+					"name" : "pcre",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "sqlite3::@0b0369d663b76793b383",
+					"jsonFile" : "target-sqlite3-Debug-343b41e9a21efefb0a1e.json",
+					"name" : "sqlite3",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "travis_doc::@e65f1d4baeb1a5332257",
+					"jsonFile" : "target-travis_doc-Debug-ced4db42e4f0518aa676.json",
+					"name" : "travis_doc",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "uninstall::@fc16a9219d2339d8b93b",
+					"jsonFile" : "target-uninstall-Debug-7a2ec3031740a62c1a9f.json",
+					"name" : "uninstall",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 29,
+					"id" : "vorbis::@c73d6b29d9f7ec21b510",
+					"jsonFile" : "target-vorbis-Debug-2a54b6e6662bef2891b5.json",
+					"name" : "vorbis",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 23,
+					"id" : "zlib::@0fa9e3bb29f8c63476b0",
+					"jsonFile" : "target-zlib-Debug-49cde69662207dcb3fa2.json",
+					"name" : "zlib",
+					"projectIndex" : 11
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Matt/Code/etterna/out/build/x64-Debug",
+		"source" : "C:/Users/Matt/Code/etterna"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 2
+	}
+}
